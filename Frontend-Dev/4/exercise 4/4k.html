@@ -1,0 +1,33 @@
+<button class="one">
+  One
+</button>
+
+<button class="two">
+  Two 
+</button>
+
+<button class="three">
+  Three
+</button>
+<style>
+  button{
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.1s ease;
+  }
+  .one:hover, .two:hover, .three:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+  }
+  .one:active, .two:active, .three:active {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(0);
+  }
+
